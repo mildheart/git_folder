@@ -15,6 +15,7 @@
     height: 78vh;
     margin: 25%;
     border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .left_container{
@@ -27,10 +28,16 @@
     align-items: center;
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     border-radius: 18px;
-    padding: 17px;
     text-align: center;
     color:  hsl(0, 0%, 100%);
-    padding: 35px;
+    padding-top: 25px;
+    padding-left: 59px;
+    padding-right: 59px;
+    justify-content: space-evenly;
+}
+
+.left_container p{
+    width: 100%;
 }
 
 p{
@@ -72,7 +79,7 @@ h1{
 }
 
 .info{
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .right_container{
@@ -84,7 +91,7 @@ h1{
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     padding: 20px;
-    row-gap: 12px;
+    justify-content: space-evenly;
    
 }
 
@@ -94,7 +101,7 @@ h1{
     background-color: aqua;
     padding: 10px;
     border-radius: 7px;
-    column-gap: 5px;
+   
     
 }
 .summary_span{
@@ -150,12 +157,13 @@ h1{
 
 button{
     margin-top: 22px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     border: none;
     border-radius: 28px;
     font-weight: 700;
     color: white;
+    font-size: 17px;
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));;
 }
 
@@ -166,4 +174,7 @@ button:hover{
 
 .summary_heading{
     margin-bottom: 10px;
+}
+img{
+    margin-right: 10px;
 }
