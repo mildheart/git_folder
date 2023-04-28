@@ -12,7 +12,7 @@
 .main_container{
     display: flex;
     width: 60vw;
-    height: 74vh;
+    height: 78vh;
     margin: 25%;
     border-radius: 12px;
 }
@@ -45,19 +45,20 @@ body{
 }
 
 .first_heading{
-    width: 120px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     margin: 0;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-     align-items: center;
-     justify-content: center;  
+    align-items: center;
+    justify-content: center;  
+    padding: 40px;
     
 }
 
-span{
+.first_heading_span{
     font-size: 15px;
     color: lightslategray;
     padding: 0;
@@ -77,8 +78,91 @@ h1{
 .right_container{
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    padding: 30px;
+    padding: 20px;
+    row-gap: 12px;
+   
+}
+
+.summary{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 7px;
+    column-gap: 5px;
+    
+}
+.summary_span{
+    font-weight: bolder;
+    color:rgba(0, 0, 0, 0.752);
+}
+
+
+.align_end {
+    margin-left: auto;
+    color: lightslategray;
+}
+
+.summary p{
+    font-size: 16px;
+}
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.04);
+}
+
+.header_Reaction{
+    color: hsla(0, 100%, 67%, 0.607);
+    font-weight: 700;
+}
+
+.memory{
+    background-color: hsla(39, 100%, 67%, 0.086);
+}
+
+.header_Memory{
+    color: hsla(39, 100%, 56%, 0.607);
+    font-weight: 700;
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 67%, 0.125);
+}
+
+.header_Verbal{
+    color: hsla(166, 100%, 37%, 0.647);
+    font-weight: 700;
+}
+
+.visual{
+    background-color: hsla(234, 85%, 67%, 0.099);
+}
+
+.header_Visual{
+    color: hsl(234, 85%,37%, 0.647);
+    font-weight: 700;
+}
+
+button{
+    margin-top: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 28px;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.summary_heading{
+    margin-bottom: 10px;
 }
