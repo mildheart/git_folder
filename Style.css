@@ -14,7 +14,7 @@
     width: 60vw;
     height: 78vh;
     margin: 25%;
-    border-radius: 12px;
+    border-radius: 18px;
 }
 
 .left_container{
@@ -26,11 +26,11 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    border-radius: 12px;
+    border-radius: 18px;
     padding: 17px;
     text-align: center;
     color:  hsl(0, 0%, 100%);
-    padding: 28px;
+    padding: 35px;
 }
 
 p{
@@ -161,6 +161,7 @@ button{
 
 button:hover{
     cursor: pointer;
+    opacity: 0.9;
 }
 
 .summary_heading{
